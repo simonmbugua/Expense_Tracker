@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Expense Tracker</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Expense Tracker</h1>
+    </header>
+    <main>
+        <nav>
+            <ul class="list-inline rating-list" *ngFor="let star of stars">
+                <li><a href="register.html">Register</a></li>
+                <li><a href="login.html">Login</a></li>
+                <li><a href="add_expense.html">Add Expense</a></li>
+                <li><a href="edit_expense.html">Edit Expense</a></li>
+                <li><a href="view_expense.html">View Expenses</a></li>
+            </ul>
+        </nav>
+        <section>
+            <h2>Welcome to your Expense Tracker!</h2>
+            <p>This application helps you manage your finances by keeping track of your income and expenses. You can register for an account, login to access your data, add new expenses, edit existing ones, and view a history of your spending.</p>
+        </section>
+    </main>
+    <footer class="footer">
+        <p>&copy; 2024 Expense Tracker</p>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,118 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    background-color: #f1f1f1;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  h1 {
+    margin: 0;
+  }
+  
+  main {
+    padding: 20px;
+  }
+  
+  section {
+    margin-bottom: 20px;
+  }
+  
+  /* Forms */
+  form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  label {
+    display: inline-block;
+    width: 120px;
+    text-align: right;
+  }
+  
+  input, select {
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  /* Table */
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  th, td {
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: left;
+  }
+  
+  th {
+    background-color: #f1f1f1;
+  }
+  
+  /* Optional styles for action links */
+  .view-expenses a {
+    color: #4CAF50;
+    text-decoration: none;
+    padding: 5px;
+  }
+  
+  .view-expenses a:hover {
+    background-color: #ddd;
+  }
+ 
+  .footer {
+    width: 100%;
+    height: 12%;
+    background-color: #0d0303;
+    display: flex;
+    align-items: center;
+    background-size: 100% 100%;
+    justify-content: center;
+}
+
+.footer p {
+    color: white;
+    font-size: 2.25em;
+}
+.rating-list li {
+    float: left;
+    color: #ddd;
+    display: flex;
+    /* transition: 0.5s;
+    justify-content: center;
+    align-items: center; */
+    padding: 10px 40px;
+}
+
+.rating-list li:hover,
+.rating-list li:hover ~ li, .rating-list li.selected {
+    color: #ffd700 !important;
+}
+
+.rating-list {
+    display: inline-block;
+    list-style: none;
+    position: relative;
+}
+
+ul {
+    margin-left: 1em;
+    margin-top: 1em
+}
